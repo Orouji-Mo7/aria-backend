@@ -109,3 +109,28 @@ development). See [`.env.example`](.env.example) for the full list.
 | `LOG_LEVEL`     | `DEBUG` / `INFO` / `WARNING` / `ERROR`        |
 | `DATABASE_URL`  | Async SQLAlchemy URL (asyncpg driver)         |
 | `CORS_ORIGINS`  | Comma-separated list of allowed origins       |
+
+
+## Status
+
+> **MVP — backend scaffold.** This service ships the core data model and CRUD endpoints over a FHIR-aligned schema. Reasoning logic, ML inference, and integration with [aria-platform](https://github.com/Orouji-Mo7/aria-platform) are planned next. ARIA is **not** approved as a medical product and must not be used for clinical decision-making.
+
+## Author
+
+**Mohammad Orouji**  
+M.Sc. Digital Health Management — MSH Medical School Hamburg  
+Background: Pflegefachkraft (20+ years of clinical practice) · Fachinformatiker für Anwendungsentwicklung (IHK 2025)
+
+ARIA is built on the conviction that clinical software for nurses should be designed by people who have stood at the bedside.
+
+Connect: [GitHub](https://github.com/Orouji-Mo7) · [LinkedIn](https://www.linkedin.com/in/mo-orouji-366236144/)
+
+## License
+
+This project is released under a custom **proprietary license** — see [LICENSE](./LICENSE) for full terms.
+
+Code is publicly visible for transparency and academic review. Commercial use, redistribution, modification, or derivative works require prior written permission from the copyright holder.
+
+Copyright © 2026 Mohammad Orouji. All rights reserved.
+
+For licensing inquiries, please reach out via my [GitHub profile](https://github.com/Orouji-Mo7) or [LinkedIn](https://www.linkedin.com/in/mo-orouji-366236144/).
